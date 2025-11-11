@@ -4,6 +4,7 @@ import Experience from "../components/Experience";
 import Navbar from "../components/Navbar";
 import Profile from "../components/Profile";
 import Skills from "../components/Skills";
+import Achievements from "../components/Achievements";  
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
         <About />
         <Skills />
         <Experience/> 
+        <Achievements />
         <Contact />
       </main>
     </div>

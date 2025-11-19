@@ -24,13 +24,20 @@ function Profile() {
             development with a passion for building scalable enterprise
             solutions.
           </p>
-          <div className="pt-4 opacity-0 animate-fade-in-delay-4">
+          <div className="pt-4 opacity-0 animate-fade-in-delay-4 flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="https://github.com/guhansp"
               target="_blank"
               className="custom-button"
             >
               View My Work
+            </a>
+            <a
+              href="/Guhan_Santhanam_Resume_2025.pdf"
+              target="_blank"
+              className="custom-button"
+            >
+              Download CV
             </a>
           </div>
         </div>

@@ -63,7 +63,7 @@ function Contact() {
     }
   }, []);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e) => {    
     e.preventDefault();
 
     let recaptchaResponse = null;

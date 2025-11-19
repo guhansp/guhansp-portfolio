@@ -15,7 +15,7 @@ function Skills() {
     { name: "Docker", category: "tools" },
     { name: "Kubernetes", category: "tools" },
     { name: "Terraform", category: "tools" },
-    { name: "Packer", category: "tools" },
+    { name: "Packer", category: "tools" },  
     { name: "AWS/GCP", category: "tools" },
     { name: "Cloud Infrastructure", category: "tools" },
     { name: "CI/CD (GitHub Actions, Jenkins)", category: "tools" },

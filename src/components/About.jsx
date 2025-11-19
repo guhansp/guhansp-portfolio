@@ -22,16 +22,10 @@ function About() {
             keen interest in exploring new technologies.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-            <a href="#contact" className="custom-button">
+            <a href="#contact" className="custom-button px-3 py-3 lg:px-10">
               Get In touch
             </a>
-            <a
-              href="/Guhan_Santhanam_Resume_2025.pdf"
-              target="_blank"
-              className="custom-button"
-            >
-              Download CV
-            </a>
+            
           </div>
         </div>
         <div className="grid grid-cols-1 gap-6 md:mr-3">

@@ -24,7 +24,10 @@ function Profile() {
             development with a passion for building scalable enterprise
             solutions.
           </p>
-          <div className="pt-4 opacity-0 animate-fade-in-delay-4 flex flex-col sm:flex-row gap-4 justify-center">
+      
+        </div>
+      </div>
+          <div className=" mt-5 md:mr-10 pt-4 opacity-0 animate-fade-in-delay-4 flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="https://github.com/guhansp"
               target="_blank"
@@ -40,8 +43,6 @@ function Profile() {
               Download CV
             </a>
           </div>
-        </div>
-      </div>
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
         <button onClick={() => (window.location.hash = "#about")}>
           <ArrowDown className="h-5 w-5 text-primary animate-bounce" />

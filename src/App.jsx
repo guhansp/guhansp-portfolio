@@ -1,12 +1,14 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
+import Snowfall from 'react-snowfall'
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
+          
           <Route index element={<Home />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
